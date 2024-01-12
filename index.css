@@ -1,0 +1,138 @@
+@font-face {
+    font-family: DopeJam;
+    src: url(dopejam.ttf);
+}
+
+@font-face {
+    font-family: LcdSolid;
+    src: url(LcdSolid-VPzB.ttf);
+}
+
+body{
+    margin: 0;
+    background-image: url(https://d2560u4h06m0te.cloudfront.net/images/2022/1/1/121818_003_basket.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+
+.main-container{
+    background-color: rgba(0, 0, 0, 0.709);
+    position: relative;
+    top: 100px;
+    border: 10px solid blue;
+    border-radius: 15px;
+    justify-content: center;
+    padding: 10px;
+    width: auto;
+}
+
+.count-display{
+    box-shadow: 0 0 30px red;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.home{
+    background-color:rgba(0, 0, 0, 0.516);
+    border: 3px solid blue;
+    border-radius: 30px;
+    color: white;
+    font-family: DopeJam;
+    padding: 6px 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+#home{
+    width: 235px;
+}
+
+.vsLabel{
+    font-size: 50px;
+    position: relative;
+    color: black;
+    top: 70px;
+    margin: 0 -30px;
+    text-shadow: 0 0 10px gold;
+}
+
+.home-section{
+    border: 3px solid red;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+    padding: 0 15px 15px 15px;
+}
+
+.opponentLabel{
+    font-size: 60px;
+    text-shadow: 0 0 10px white;
+    color: black;
+}
+
+.home-counter{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    box-shadow: 0 0 30px red;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .numbers{
+    font-family: LcdSolid;
+    font-size: 70px;
+    color: whitesmoke;
+ }
+
+ .main-btn-container{
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.869);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    gap: 140px;
+ }
+
+ .home-controls, .visitors-controls{
+    height: 90px;
+    width: 300px;
+    box-shadow: 0 0 10px red;
+    border-radius: 20px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+ }
+
+ .plus1, .plus2, .plus3{
+    background-color: rgb(98, 96, 89);
+    height: 90px;
+    width: 90px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: LcdSolid;
+    text-shadow: 0 0 5px white;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+ }
+ .plus1:hover, .plus2:hover, .plus3:hover{
+   transform: scale(1.07);
+   background-color: black;
+   text-shadow: 0 0 5px black;
+   color: lightgray;
+   box-shadow: 0 0 7px green;
+ }
